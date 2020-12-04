@@ -8,6 +8,10 @@ Fast Python
  * Benchmarking
  * Cython
  
+ ## Introduction
+ This is a repository dedicated to assisting with the High Performance Python Projects presentation. In the repo there are examples of code timing, profiling and a wide variaty of performance improvement techniques you can use. Just remember, ultimately, these are not the most important things you can for a Python project so keep increased complexity in mind when exploring the repo 
+ 
+ 
 ## Installation
 Clone the repository using 
 
