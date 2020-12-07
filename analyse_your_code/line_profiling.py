@@ -1,7 +1,17 @@
 from line_profiler import LineProfiler
-from analyse_your_code import list_test
+
+profile = LineProfiler()
+list_comp = list(range(0, 1000000))
+
+
+@profile
+def list_test():
+    arr = []
+    for x in list_comp:
+        arr.append(x)
+    return arr
+
 
 if __name__ == "__main__":
-    lp = LineProfiler()
-    lp(list_test)
-    lp.print_stats()
+    list_test()
+    profile.print_stats()
