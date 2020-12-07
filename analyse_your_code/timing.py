@@ -12,4 +12,3 @@ def list_test():
 
 if __name__ == "__main__":
     print(timeit.timeit(stringify))
-    print(timeit.repeat(stringify))  # at the time of writing this, repeat defaults to 3 outputs
