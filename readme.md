@@ -8,20 +8,28 @@ Fast Python
  * Benchmarking
  * Cython
  
+ ## Introduction
+ The fast_python repo is design to show case some code benchmarking tools, some performance improvement techniques ranging from easy to hard. This is to showcase the findings for Higher Performance Python Project talk.
+ 
+ When you look through the code remember, code benchmark performance is not the only performance you need to worry about as a developer. Limitations added from some of these techniques and additional complexity can be detrimental to your projects success. 
+ 
 ## Installation
-Clone the repository using 
+Clone the repo
 
-In your environment, install the requirements with
+In your virtual environment, install the requirements with
  
     pip install requirements.txt
 
-Then either open the project in an IDE or you can run the scripts through the commandline
 
 ## Scripts
-Most of the scripts in this project can be run simply by executing in an IDE or by using 
+Either open the project in an IDE or you can run the scripts through the commandline by just executing the following in your terminal
 
-    python3 <script_file.py>
- 
+    python3 <script file>
+
+e.g. 
+
+    python3 analyse_your_code/timing
+
  
 ## Timing 
 To run the timing cli, the easiest way is through Ipython in your terminal
